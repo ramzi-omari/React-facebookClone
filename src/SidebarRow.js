@@ -7,7 +7,8 @@ function SidebarRow({src, Icon, title}) {
         <div className="sidebarRow">
             {src && <Avatar src={src}></Avatar>}
             {/* pass a component as a prop */}
-            {Icon && <Icon src={src}></Icon>}
+            {Icon && <Icon/>}
+
             <h4>{title}</h4>
         </div>
     )
