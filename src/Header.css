@@ -1,8 +1,4 @@
-.header__left > img{
-    height: 40px;
-   }
-   
-   
+
 .header{
     padding: 15px 20px;
     display: flex;
@@ -18,6 +14,11 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.header__left > img{
+    height: 40px;
+   }
+   
 .header__input{
     display: flex;
     align-items: center;
@@ -47,6 +48,14 @@
 
 .header__option:hover>.MuiSvgIcon-root{
     color: #2e81f4;
+}
+
+.header__option--active>.MuiSvgIcon-root{
+    color: #2e81f4;
+}
+
+.header__option--active{
+    border-bottom: 4px solid #2e81f4;
 }
 
 .header__option{
