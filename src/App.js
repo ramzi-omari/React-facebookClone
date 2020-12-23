@@ -4,7 +4,6 @@ import Header from './Header';
 function App() {
   return (
     <div className="app">
-      <h1>YES</h1>
 
       {/* Header */}
       <Header></Header>
