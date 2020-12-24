@@ -7,8 +7,9 @@ function Login() {
     const signIn = () => {
         auth.signInWithPopup(provider)
         .then(result => {
-            console.log(result)
-        }).catch(error => alert(error.message))
+            console.log(result.user)
+        })
+        .catch(error => alert(error.message))
     }
     return (
         <div className="login">

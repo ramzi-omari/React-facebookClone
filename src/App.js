@@ -8,6 +8,7 @@ import Widgets from './Widgets';
 function App() {
   const user = null
   return (
+      // Data layer: wrap all the app using Context API - (by creating StateProvider & reducer & wrap <app> in index.js)
     <div className="app">
         {!user? (
         <Login></Login>

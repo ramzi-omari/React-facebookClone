@@ -8,4 +8,5 @@ Center, Left and Right
 # Sidebare
 # Feed
 # Widget
-Facebook Iframe used
+
+**StateProvider.js & reducer.js** :: we use React Context API to access User from anywhere (as a DATA Layer, `like REDUX`)
