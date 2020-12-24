@@ -16,6 +16,7 @@ function App() {
       <div className="app__body">
         <Sidebar></Sidebar>
         <Feed></Feed>
+        
 
       </div>
 
