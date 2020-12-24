@@ -13,12 +13,9 @@ function App() {
       </Header>
 
       {/* App body */}
-      <div className="app_body">
-        {/* Sidebare */}
+      <div className="app__body">
         <Sidebar></Sidebar>
-      {/* Feed */}
         <Feed></Feed>
-      {/* Widget Iframe */}
 
       </div>
 
