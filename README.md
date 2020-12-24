@@ -10,3 +10,4 @@ Center, Left and Right
 # Widget
 
 **StateProvider.js & reducer.js** :: we use React Context API to access User from anywhere (as a DATA Layer, `like REDUX`)
+

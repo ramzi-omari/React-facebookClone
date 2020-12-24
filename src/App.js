@@ -4,9 +4,11 @@ import Header from './Header';
 import Login from './Login';
 import Sidebar from './Sidebar';
 import Widgets from './Widgets';
+import {useStateValue} from "./StateProvider"
 
 function App() {
-  const user = null
+  const [{user}, dispatch] = useStateValue()
+  
   return (
       // Data layer: wrap all the app using Context API - (by creating StateProvider & reducer & wrap <app> in index.js)
     <div className="app">
