@@ -12,17 +12,7 @@ import db from './firebase'
 
 function Post({keyId, profilePic, image, username, timestamp, message}) {
     const deletePost = (keyId) => {
-        // const data = db.collection('posts')
-        // const query = data.where("timestamp", "==", timestamp)
-        // console.log(query)
-
-        // db.collection('posts').doc(query).delete()        
-        // .then(()=>{
-        //     console.log('success')
-        // }).catch((error)=>{
-        //     console.error('erroooor',error)
-        // })
-
+       
         db.collection("posts").doc(keyId).delete().then(function() {
             console.log("Document successfully deleted!");
         }).catch(function(error) {
