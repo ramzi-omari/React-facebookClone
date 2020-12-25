@@ -19,12 +19,12 @@ function Feed() {
     return (
         <div className="feed">
 
-            <StoryReel></StoryReel>
+            <StoryReel ></StoryReel>
             <MessageSender></MessageSender>
             {posts.map((post) =>(
                 <Post
-                    key={post.id}
-                    profilePic={post.data.profilePic}
+                    keyId={post.id}
+                    profilePic={post.data.profilPic}
                     message={post.data.message}
                     timestamp={post.data.timestamp}
                     username={post.data.username}
